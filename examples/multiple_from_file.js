@@ -13,7 +13,7 @@ const config = {
   host: 'localhost',
   port: 25565,
   file: './accounts.txt',
-  interval: 500 // cooldown between joining server too prevent joining too quickly
+  interval: 500 // cooldown between joining server to prevent joining too quickly
 }
 
 function makeBot ([_u, _p], ix) {
